@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="minimal-r401" />
-  <url value="http://example.com/minimal-r401/ImplementationGuide/minimal-r401" />
+  <id value="drafting-r401" />
+  <url value="http://example.com/minimal-r401/ImplementationGuide/drafting-r401" />
   <version value="0.0.1" />
-  <name value="MinimalR401IG" />
+  <name value="DraftingR401IG" />
   <status value="draft" />
   <contact>
     <telecom>
@@ -12,14 +12,27 @@
       <value value="http://example.com" />
     </telecom>
   </contact>
-  <packageId value="minimal-r401" />
+  <packageId value="drafting-r401" />
   <fhirVersion value="4.0.1" />
+
+  <dependsOn>
+    <uri value="https://github.com/phenopackets/core-ig/ImplementationGuide/hl7.fhir.us.ga4gh.phenopacket" />
+    <packageId value="hl7.fhir.us.ga4gh.phenopacket" />
+    <version value="0.1.0" />
+  </dependsOn>
   <definition>
 
     <resource>
       <reference>
         <reference value="StructureDefinition/r4-xml.patient" />
       </reference>
+    </resource>
+
+    <resource>
+      <reference>
+        <reference value="Bundle/ptb-1" />
+      </reference>
+      <name value="PhenoTips example bundle 1" />
     </resource>
 
     <page>
