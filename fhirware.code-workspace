@@ -59,5 +59,6 @@
 		],
     "xml.server.vmargs": "-Xmx512m",
     "editor.detectIndentation": false,
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${rootPath}",
 	}
 }
