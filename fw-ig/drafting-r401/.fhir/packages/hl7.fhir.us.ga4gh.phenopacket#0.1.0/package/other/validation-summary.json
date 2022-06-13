@@ -1,0 +1,394 @@
+{
+  "ImplementationGuide/hl7.fhir.us.ga4gh.phenopacket": {
+    "errors": 0,
+    "warnings": 4
+  },
+  "Composition/PhenopacketCompositionExample01": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/HistologicalDiagnosis": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Condition/id.disease.3": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/TumorGrade": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "ValueSet/acmgPathogenicityClassification-vs": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "ValueSet/geno-ontology-allelic-state-vs": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/interpretation-status": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/therapeutic-actionability": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/Severity": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Bundle/PhenopacketsBundleExample01": {
+    "errors": 0,
+    "warnings": 8
+  },
+  "StructureDefinition/DiagnosticMarker": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Observation/karyotypic-sex-valid-1": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "MedicationAdministration/id.treatment.1": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/TumorStage": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/molecule-context": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/phenotypic-abnormality-valid-1": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Specimen/biosample.specimen.id.1": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/hp.0003557": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "CodeSystem/phenotypicFeatureStatusCS": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/HistologicalDiagnosis": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "DiagnosticReport/PhenopacketsGenomicInterpretationExample01": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Condition/id.disease.2": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/related-concept-id": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "ValueSet/phenotypicFeatureVS": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/interpretationStatus-vs": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "Condition/id.disease.intellectualDisability": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/id.measurement.1": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/Treatment": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Practitioner/PhenopacketPractitionerExample01": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/KaryotypicSex": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Observation/hp.0007663": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/PhenotypicFeature": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/phred-quality-score": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Observation/id.phenotypicfeature.2": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/Phenopacket": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Patient/Proband1": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/Measurement": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/Onset": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Specimen/phenopacketSpecimenExample01": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Patient/example-patient": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/vcf-info": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "DiagnosticReport/PhenopacketsGenomicInterpretationExample02": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/Individual": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/Disease": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/hp.0000343": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/phenotypic-abnormality-invalid-1": {
+    "errors": 1,
+    "warnings": 0
+  },
+  "StructureDefinition/CodedOnset": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Composition/DevelopmentalDelay": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/karyotypic-sex-invalid-1": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/id.phenotypicfeature.4": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "CodeSystem/KaryotypicSex": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/acmg-pathogenicity-classification": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/phenopackets-variant": {
+    "errors": 2,
+    "warnings": 30
+  },
+  "StructureDefinition/MaterialSample": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/Biosample": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/PathologicalStage": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "SearchParameter/service-request-supporting-info": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/hp.0000568": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/observation-categories": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Patient/phenopacketPatientExample01": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "CodeSystem/categories": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/TumorGrade": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/hp.0001263": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/phenotypic-component": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/TumorProgression": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/Onset": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "CodeSystem/HtsFormat": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/phenotypic-abnormality": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "ValueSet/DiagnosticMarker": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Specimen/biosample.specimen.id.2": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/Taxonomy": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/phenopackets-genomic-interpretation": {
+    "errors": 0,
+    "warnings": 4
+  },
+  "Condition/id.disease.1": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/additional-variant-identifier": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "ValueSet/TumorProgression": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "StructureDefinition/Taxonomy": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Observation/hp.0000369": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/filter-status": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/PathologicalTnmFinding": {
+    "errors": 0,
+    "warnings": 3
+  },
+  "StructureDefinition/PhenotypicFeatureExt": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Practitioner/PeterGeneticist": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/id.phenotypicfeature.1": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/PhenotypicModifierValueSet": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "ValueSet/sequence-ontology-structural-variant-vs": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "StructureDefinition/MeasurementExt": {
+    "errors": 0,
+    "warnings": 1
+  },
+  "Observation/hp.0000541": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/KaryotypicSex": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/therapeuticActionability-vs": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "Observation/hp.0001252": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/hp.0003202": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/PhenopacketsVariantExample01": {
+    "errors": 0,
+    "warnings": 7
+  },
+  "Observation/id.phenotypicfeature.3": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/hp.0001324": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "ValueSet/moleculeContext-vs": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "Observation/hp.0001669": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Observation/phenotypic-abnormality-invalid-meta-profile": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "StructureDefinition/vrs-object": {
+    "errors": 0,
+    "warnings": 0
+  }
+}

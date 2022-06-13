@@ -1,0 +1,31 @@
+{
+  "name": "hl7.fhir.us.ga4gh.phenopacket",
+  "version": "0.1.0",
+  "tools-version": 3,
+  "type": "IG",
+  "date": "20220330211620",
+  "license": "CC0-1.0",
+  "canonical": "https://github.com/phenopackets/core-ig",
+  "notForPublication": true,
+  "url": "file:///home/runner/work/core-ig/core-ig/output",
+  "title": "GA4GH Phenopacket (version 2) FHIR Implementation Guide",
+  "description": "FHIR implementation guide for the Global Alliance for Genomics and Health Phenopacket standard. (built Wed, Mar 30, 2022 21:16+0000+00:00)",
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1",
+    "hl7.fhir.uv.genomics-reporting": "1.0.0"
+  },
+  "author": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
+  "maintainers": [
+    {
+      "name": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
+      "url": "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"
+    }
+  ],
+  "directories": {
+    "lib": "package",
+    "example": "example"
+  }
+}

@@ -1,0 +1,206 @@
+﻿{
+  "index-version": 1,
+  "files": [
+    {
+      "filename": "Bundle-PhenopacketsBundleExample01.json",
+      "resourceType": "Bundle",
+      "id": "PhenopacketsBundleExample01",
+      "type": "document"
+    },
+    {
+      "filename": "Composition-DevelopmentalDelay.json",
+      "resourceType": "Composition",
+      "id": "DevelopmentalDelay"
+    },
+    {
+      "filename": "Composition-PhenopacketCompositionExample01.json",
+      "resourceType": "Composition",
+      "id": "PhenopacketCompositionExample01"
+    },
+    {
+      "filename": "Condition-id.disease.1.json",
+      "resourceType": "Condition",
+      "id": "id.disease.1"
+    },
+    {
+      "filename": "Condition-id.disease.2.json",
+      "resourceType": "Condition",
+      "id": "id.disease.2"
+    },
+    {
+      "filename": "Condition-id.disease.3.json",
+      "resourceType": "Condition",
+      "id": "id.disease.3"
+    },
+    {
+      "filename": "Condition-id.disease.intellectualDisability.json",
+      "resourceType": "Condition",
+      "id": "id.disease.intellectualDisability"
+    },
+    {
+      "filename": "DiagnosticReport-PhenopacketsGenomicInterpretationExample01.json",
+      "resourceType": "DiagnosticReport",
+      "id": "PhenopacketsGenomicInterpretationExample01"
+    },
+    {
+      "filename": "DiagnosticReport-PhenopacketsGenomicInterpretationExample02.json",
+      "resourceType": "DiagnosticReport",
+      "id": "PhenopacketsGenomicInterpretationExample02"
+    },
+    {
+      "filename": "MedicationAdministration-id.treatment.1.json",
+      "resourceType": "MedicationAdministration",
+      "id": "id.treatment.1"
+    },
+    {
+      "filename": "Observation-PhenopacketsVariantExample01.json",
+      "resourceType": "Observation",
+      "id": "PhenopacketsVariantExample01"
+    },
+    {
+      "filename": "Observation-hp.0000343.json",
+      "resourceType": "Observation",
+      "id": "hp.0000343"
+    },
+    {
+      "filename": "Observation-hp.0000369.json",
+      "resourceType": "Observation",
+      "id": "hp.0000369"
+    },
+    {
+      "filename": "Observation-hp.0000541.json",
+      "resourceType": "Observation",
+      "id": "hp.0000541"
+    },
+    {
+      "filename": "Observation-hp.0000568.json",
+      "resourceType": "Observation",
+      "id": "hp.0000568"
+    },
+    {
+      "filename": "Observation-hp.0001252.json",
+      "resourceType": "Observation",
+      "id": "hp.0001252"
+    },
+    {
+      "filename": "Observation-hp.0001263.json",
+      "resourceType": "Observation",
+      "id": "hp.0001263"
+    },
+    {
+      "filename": "Observation-hp.0001324.json",
+      "resourceType": "Observation",
+      "id": "hp.0001324"
+    },
+    {
+      "filename": "Observation-hp.0001669.json",
+      "resourceType": "Observation",
+      "id": "hp.0001669"
+    },
+    {
+      "filename": "Observation-hp.0003202.json",
+      "resourceType": "Observation",
+      "id": "hp.0003202"
+    },
+    {
+      "filename": "Observation-hp.0003557.json",
+      "resourceType": "Observation",
+      "id": "hp.0003557"
+    },
+    {
+      "filename": "Observation-hp.0007663.json",
+      "resourceType": "Observation",
+      "id": "hp.0007663"
+    },
+    {
+      "filename": "Observation-id.measurement.1.json",
+      "resourceType": "Observation",
+      "id": "id.measurement.1"
+    },
+    {
+      "filename": "Observation-id.phenotypicfeature.1.json",
+      "resourceType": "Observation",
+      "id": "id.phenotypicfeature.1"
+    },
+    {
+      "filename": "Observation-id.phenotypicfeature.2.json",
+      "resourceType": "Observation",
+      "id": "id.phenotypicfeature.2"
+    },
+    {
+      "filename": "Observation-id.phenotypicfeature.3.json",
+      "resourceType": "Observation",
+      "id": "id.phenotypicfeature.3"
+    },
+    {
+      "filename": "Observation-id.phenotypicfeature.4.json",
+      "resourceType": "Observation",
+      "id": "id.phenotypicfeature.4"
+    },
+    {
+      "filename": "Observation-karyotypic-sex-invalid-1.json",
+      "resourceType": "Observation",
+      "id": "karyotypic-sex-invalid-1"
+    },
+    {
+      "filename": "Observation-karyotypic-sex-valid-1.json",
+      "resourceType": "Observation",
+      "id": "karyotypic-sex-valid-1"
+    },
+    {
+      "filename": "Observation-phenotypic-abnormality-invalid-1.json",
+      "resourceType": "Observation",
+      "id": "phenotypic-abnormality-invalid-1"
+    },
+    {
+      "filename": "Observation-phenotypic-abnormality-invalid-meta-profile.json",
+      "resourceType": "Observation",
+      "id": "phenotypic-abnormality-invalid-meta-profile"
+    },
+    {
+      "filename": "Observation-phenotypic-abnormality-valid-1.json",
+      "resourceType": "Observation",
+      "id": "phenotypic-abnormality-valid-1"
+    },
+    {
+      "filename": "Patient-Proband1.json",
+      "resourceType": "Patient",
+      "id": "Proband1"
+    },
+    {
+      "filename": "Patient-example-patient.json",
+      "resourceType": "Patient",
+      "id": "example-patient"
+    },
+    {
+      "filename": "Patient-phenopacketPatientExample01.json",
+      "resourceType": "Patient",
+      "id": "phenopacketPatientExample01"
+    },
+    {
+      "filename": "Practitioner-PeterGeneticist.json",
+      "resourceType": "Practitioner",
+      "id": "PeterGeneticist"
+    },
+    {
+      "filename": "Practitioner-PhenopacketPractitionerExample01.json",
+      "resourceType": "Practitioner",
+      "id": "PhenopacketPractitionerExample01"
+    },
+    {
+      "filename": "Specimen-biosample.specimen.id.1.json",
+      "resourceType": "Specimen",
+      "id": "biosample.specimen.id.1"
+    },
+    {
+      "filename": "Specimen-biosample.specimen.id.2.json",
+      "resourceType": "Specimen",
+      "id": "biosample.specimen.id.2"
+    },
+    {
+      "filename": "Specimen-phenopacketSpecimenExample01.json",
+      "resourceType": "Specimen",
+      "id": "phenopacketSpecimenExample01"
+    }
+  ]
+}
