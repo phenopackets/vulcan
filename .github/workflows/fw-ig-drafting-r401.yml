@@ -9,7 +9,7 @@ name: IG build entry workflow
 # 5. Enable GitHub actions and write access to this repository.
 # 6.
 env:
-  IG_ROOT: "fw-ig/drafting-r401"  # The relative folder path of the IG root directory
+  IG_ROOT: "drafting-r401"  # The relative folder path of the IG root directory
   DOCKER_PUBLISHER_TAG: latest  # The Docker tag for the Publisher version wanted for the build from: https://hub.docker.com/repository/docker/sessaid/ig-publisher
   PUBLISHER_ARGS: "-ig /ig/ig.ini"  # the publisher command line arguments
   IO_OWNER: Phenopackets #  The owner of a GitHub repository that will be used for publishing the built IG's output
@@ -29,10 +29,10 @@ on:
   push:
     branches: [ main, dev ]
     paths:
-      - fw-ig/drafting-r401/**
+      - drafting-r401/**
   pull_request_target:
     paths:
-      - fw-ig/drafting-r401/**
+      - drafting-r401/**
 
 jobs:
 

@@ -1,0 +1,7 @@
+# editing this file helps trigger a build of this IG
+/temp
+/template
+/output
+/fsh-generated
+/input-cache
+/txCache
