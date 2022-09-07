@@ -7,3 +7,4 @@ input-cache/
 output/
 temp/
 template/
+/.fhir/packages/hl7.fhir.us.ga4gh.phenopacket#dev/

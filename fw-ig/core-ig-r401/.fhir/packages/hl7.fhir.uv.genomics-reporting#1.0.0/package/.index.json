@@ -1,0 +1,350 @@
+{
+  "index-version": 1,
+  "files": [
+    {
+      "filename": "StructureDefinition-medication-implication.json",
+      "resourceType": "StructureDefinition",
+      "id": "medication-implication",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/medication-implication",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-region-studied.json",
+      "resourceType": "StructureDefinition",
+      "id": "region-studied",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/region-studied",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-haplotype.json",
+      "resourceType": "StructureDefinition",
+      "id": "haplotype",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/haplotype",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-medication-high-risk.json",
+      "resourceType": "StructureDefinition",
+      "id": "medication-high-risk",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/medication-high-risk",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-variant.json",
+      "resourceType": "StructureDefinition",
+      "id": "variant",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/variant",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-specimen.json",
+      "resourceType": "StructureDefinition",
+      "id": "specimen",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/specimen",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Specimen"
+    },
+    {
+      "filename": "StructureDefinition-somatic-predictive.json",
+      "resourceType": "StructureDefinition",
+      "id": "somatic-predictive",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/somatic-predictive",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-overall-interpretation.json",
+      "resourceType": "StructureDefinition",
+      "id": "overall-interpretation",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/overall-interpretation",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-somatic-prognostic.json",
+      "resourceType": "StructureDefinition",
+      "id": "somatic-prognostic",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/somatic-prognostic",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-genomics-base.json",
+      "resourceType": "StructureDefinition",
+      "id": "genomics-base",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomics-base",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-medication-efficacy.json",
+      "resourceType": "StructureDefinition",
+      "id": "medication-efficacy",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/medication-efficacy",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "ValueSet-dna-change-type.json",
+      "resourceType": "ValueSet",
+      "id": "dna-change-type",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/ValueSet/dna-change-type",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "CodeSystem-tbd-codes.json",
+      "resourceType": "CodeSystem",
+      "id": "tbd-codes",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "StructureDefinition-RecommendedAction.json",
+      "resourceType": "StructureDefinition",
+      "id": "RecommendedAction",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/RecommendedAction",
+      "version": "1.0.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "ImplementationGuide-hl7.fhir.uv.genomics-reporting.json",
+      "resourceType": "ImplementationGuide",
+      "id": "hl7.fhir.uv.genomics-reporting",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/ImplementationGuide/hl7.fhir.uv.genomics-reporting",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "StructureDefinition-genotype.json",
+      "resourceType": "StructureDefinition",
+      "id": "genotype",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genotype",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-somatic-diagnostic.json",
+      "resourceType": "StructureDefinition",
+      "id": "somatic-diagnostic",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/somatic-diagnostic",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "ValueSet-hgvs.json",
+      "resourceType": "ValueSet",
+      "id": "hgvs",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgvs",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "StructureDefinition-finding.json",
+      "resourceType": "StructureDefinition",
+      "id": "finding",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/finding",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "ValueSet-functional-annotation.json",
+      "resourceType": "ValueSet",
+      "id": "functional-annotation",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/ValueSet/functional-annotation",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "StructureDefinition-RelatedArtifact.json",
+      "resourceType": "StructureDefinition",
+      "id": "RelatedArtifact",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/RelatedArtifact",
+      "version": "1.0.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "ValueSet-variant-inheritance.json",
+      "resourceType": "ValueSet",
+      "id": "variant-inheritance",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/ValueSet/variant-inheritance",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ig-r4.json",
+      "resourceType": "ImplementationGuide",
+      "id": "hl7.fhir.uv.genomics-reporting",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/ImplementationGuide/hl7.fhir.uv.genomics-reporting",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ValueSet-seq-phase-relationship.json",
+      "resourceType": "ValueSet",
+      "id": "seq-phase-relationship",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/ValueSet/seq-phase-relationship",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "CodeSystem-seq-phase-relationship.json",
+      "resourceType": "CodeSystem",
+      "id": "seq-phase-relationship",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/seq-phase-relationship",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "StructureDefinition-task-rec-followup.json",
+      "resourceType": "StructureDefinition",
+      "id": "task-rec-followup",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/task-rec-followup",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Task"
+    },
+    {
+      "filename": "StructureDefinition-genomics-report.json",
+      "resourceType": "StructureDefinition",
+      "id": "genomics-report",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomics-report",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "DiagnosticReport"
+    },
+    {
+      "filename": "StructureDefinition-medication-transporter.json",
+      "resourceType": "StructureDefinition",
+      "id": "medication-transporter",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/medication-transporter",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-somatic-implication.json",
+      "resourceType": "StructureDefinition",
+      "id": "somatic-implication",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/somatic-implication",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-task-med-chg.json",
+      "resourceType": "StructureDefinition",
+      "id": "task-med-chg",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/task-med-chg",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Task"
+    },
+    {
+      "filename": "StructureDefinition-inherited-disease-pathogenicity.json",
+      "resourceType": "StructureDefinition",
+      "id": "inherited-disease-pathogenicity",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/inherited-disease-pathogenicity",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-medicationstatement.json",
+      "resourceType": "StructureDefinition",
+      "id": "medicationstatement",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/medicationstatement",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "MedicationStatement"
+    },
+    {
+      "filename": "StructureDefinition-servicerequest.json",
+      "resourceType": "StructureDefinition",
+      "id": "servicerequest",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/servicerequest",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "ServiceRequest"
+    },
+    {
+      "filename": "StructureDefinition-implication.json",
+      "resourceType": "StructureDefinition",
+      "id": "implication",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/implication",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "ValueSet-hgnc.json",
+      "resourceType": "ValueSet",
+      "id": "hgnc",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "ConceptMap-dna-change-type.json",
+      "resourceType": "ConceptMap",
+      "id": "dna-change-type",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/ConceptMap/dna-change-type",
+      "version": "1.0.0"
+    },
+    {
+      "filename": "StructureDefinition-SupportingInfo.json",
+      "resourceType": "StructureDefinition",
+      "id": "SupportingInfo",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/SupportingInfo",
+      "version": "1.0.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-grouper.json",
+      "resourceType": "StructureDefinition",
+      "id": "grouper",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/grouper",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-medication-metabolism.json",
+      "resourceType": "StructureDefinition",
+      "id": "medication-metabolism",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/medication-metabolism",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "StructureDefinition-sequence-phase-relationship.json",
+      "resourceType": "StructureDefinition",
+      "id": "sequence-phase-relationship",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/sequence-phase-relationship",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation"
+    },
+    {
+      "filename": "ValueSet-tbd-codes.json",
+      "resourceType": "ValueSet",
+      "id": "tbd-codes",
+      "url": "http://hl7.org/fhir/uv/genomics-reporting/ValueSet/tbd-codes",
+      "version": "1.0.0"
+    }
+  ]
+}
