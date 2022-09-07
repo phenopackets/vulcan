@@ -1,0 +1,92 @@
+{
+  "resourceType": "Bundle",
+  "id": "ptb-1",
+  "type": "document",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Composition",
+        "id": "DevelopmentalDelay",
+        "meta": {
+          "profile": [
+            "https://github.com/phenopackets/core-ig/StructureDefinition/Phenopacket"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>\n              <b>Generated Narrative</b>\n            </p>\n            <div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\">\n              <p style=\"margin-bottom: 0px\">Resource &quot;DevelopmentalDelay&quot; </p>\n              <p style=\"margin-bottom: 0px\">\n                Profile:\n                <a href=\"StructureDefinition-Phenopacket.html\">Phenopacket profile</a>\n              </p>\n            </div>\n            <p>\n              <b>identifier</b>\n              : id: id.treatment.1\n            </p>\n            <p>\n              <b>status</b>\n              : preliminary\n            </p>\n            <p>\n              <b>type</b>\n              : Physician Episode of care medical records\n              <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\">\n                (\n                <a href=\"https://loinc.org/\">LOINC</a>\n                #11516-2)\n              </span>\n            </p>\n            <p>\n              <b>date</b>\n              : 2018-03-16\n            </p>\n            <p>\n              <b>author</b>\n              :\n              <a href=\"Practitioner-PeterGeneticist.html\">Practitioner/PeterGeneticist</a>\n              &quot; GENETICIST&quot;\n            </p>\n            <p>\n              <b>title</b>\n              : Phenopacket (static snapshot of clinical findings to support differential diagnosis of a child with developmental delay).\n            </p>\n          </div>"
+        },
+        "identifier": {
+          "value": "id.treatment.1"
+        },
+        "status": "preliminary",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11516-2",
+              "display": "Physician Episode of care medical records"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Proband1"
+        },
+        "date": "2018-03-16",
+        "author": [
+          {
+            "reference": "Practitioner/PeterGeneticist"
+          }
+        ],
+        "title": "Phenopacket (static snapshot of clinical findings to support differential diagnosis of a child with developmental delay).",
+        "section": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType",
+                  "code": "phenotypic_features"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Observation/hp.0000343"
+              }
+            ]
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType",
+                  "code": "biosamples"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Specimen/biosample.specimen.id.2"
+              }
+            ]
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType",
+                  "code": "diseases"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Condition/id.disease.intellectualDisability"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

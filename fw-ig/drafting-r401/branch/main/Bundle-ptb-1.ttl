@@ -1,0 +1,105 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/minimal-r401/Bundle/ptb-1> a fhir:Bundle;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ptb-1"];
+  fhir:Bundle.type [ fhir:value "document"];
+  fhir:Bundle.entry [
+     fhir:index 0;
+     fhir:Bundle.entry.resource [
+       a fhir:Composition;
+       fhir:Resource.id [ fhir:value "DevelopmentalDelay" ];
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/Phenopacket";
+           fhir:index 0;
+           fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Phenopacket>
+         ]
+       ];
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ];
+         fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>\n              <b>Generated Narrative</b>\n            </p>\n            <div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\">\n              <p style=\"margin-bottom: 0px\">Resource &quot;DevelopmentalDelay&quot; </p>\n              <p style=\"margin-bottom: 0px\">\n                Profile:\n                <a href=\"StructureDefinition-Phenopacket.html\">Phenopacket profile</a>\n              </p>\n            </div>\n            <p>\n              <b>identifier</b>\n              : id: id.treatment.1\n            </p>\n            <p>\n              <b>status</b>\n              : preliminary\n            </p>\n            <p>\n              <b>type</b>\n              : Physician Episode of care medical records\n              <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\">\n                (\n                <a href=\"https://loinc.org/\">LOINC</a>\n                #11516-2)\n              </span>\n            </p>\n            <p>\n              <b>date</b>\n              : 2018-03-16\n            </p>\n            <p>\n              <b>author</b>\n              :\n              <a href=\"Practitioner-PeterGeneticist.html\">Practitioner/PeterGeneticist</a>\n              &quot; GENETICIST&quot;\n            </p>\n            <p>\n              <b>title</b>\n              : Phenopacket (static snapshot of clinical findings to support differential diagnosis of a child with developmental delay).\n            </p>\n          </div>"
+       ];
+       fhir:Composition.identifier [
+         fhir:Identifier.value [ fhir:value "id.treatment.1" ]
+       ];
+       fhir:Composition.status [ fhir:value "preliminary" ];
+       fhir:Composition.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           a loinc:11516-2;
+           fhir:Coding.system [ fhir:value "http://loinc.org" ];
+           fhir:Coding.code [ fhir:value "11516-2" ];
+           fhir:Coding.display [ fhir:value "Physician Episode of care medical records" ]
+         ]
+       ];
+       fhir:Composition.subject [
+         fhir:link <http://example.com/minimal-r401/Patient/Proband1>;
+         fhir:Reference.reference [ fhir:value "Patient/Proband1" ]
+       ];
+       fhir:Composition.date [ fhir:value "2018-03-16"^^xsd:date ];
+       fhir:Composition.author [
+         fhir:index 0;
+         fhir:link <http://example.com/minimal-r401/Practitioner/PeterGeneticist>;
+         fhir:Reference.reference [ fhir:value "Practitioner/PeterGeneticist" ]
+       ];
+       fhir:Composition.title [ fhir:value "Phenopacket (static snapshot of clinical findings to support differential diagnosis of a child with developmental delay)." ];
+       fhir:Composition.section [
+         fhir:index 0;
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType" ];
+             fhir:Coding.code [ fhir:value "phenotypic_features" ]
+           ]
+         ];
+         fhir:Composition.section.entry [
+           fhir:index 0;
+           fhir:link <http://example.com/minimal-r401/Observation/hp.0000343>;
+           fhir:Reference.reference [ fhir:value "Observation/hp.0000343" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType" ];
+             fhir:Coding.code [ fhir:value "biosamples" ]
+           ]
+         ];
+         fhir:Composition.section.entry [
+           fhir:index 0;
+           fhir:link <http://example.com/minimal-r401/Specimen/biosample.specimen.id.2>;
+           fhir:Reference.reference [ fhir:value "Specimen/biosample.specimen.id.2" ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType" ];
+             fhir:Coding.code [ fhir:value "diseases" ]
+           ]
+         ];
+         fhir:Composition.section.entry [
+           fhir:index 0;
+           fhir:link <http://example.com/minimal-r401/Condition/id.disease.intellectualDisability>;
+           fhir:Reference.reference [ fhir:value "Condition/id.disease.intellectualDisability" ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://example.com/minimal-r401/Bundle/ptb-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

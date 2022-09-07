@@ -1,0 +1,30 @@
+[
+  {
+    "id": "drafting-r401",
+    "type": "ImplementationGuide",
+    "url": "http://example.com/minimal-r401/ImplementationGuide/drafting-r401",
+    "version": "0.0.1",
+    "name": "DraftingR401IG"
+  },
+  {
+    "id": "fsh-patient",
+    "type": "StructureDefinition",
+    "url": "http://example.com/minimal-r401/StructureDefinition/fsh-patient",
+    "version": "0.0.1",
+    "name": "FshPatient"
+  },
+  {
+    "id": "r4-json-patient",
+    "type": "StructureDefinition",
+    "url": "http://example.com/minimal-r401/StructureDefinition/r4-json-patient",
+    "version": "0.0.1",
+    "name": "R4JsonPatient"
+  },
+  {
+    "id": "r4-xml.patient",
+    "type": "StructureDefinition",
+    "url": "http://example.com/minimal-r401/StructureDefinition/r4-xml.patient",
+    "version": "0.0.1",
+    "name": "R4XmlPatient"
+  }
+]

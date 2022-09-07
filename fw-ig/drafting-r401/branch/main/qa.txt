@@ -1,0 +1,40 @@
+﻿DraftingR401IG : Validation Results
+=========================================
+
+err = 9, warn = 4, info = 3
+IG Publisher Version: 1.1.128
+Generated Wed Sep 07 17:35:58 UTC 2022. FHIR version 4.0.1 for drafting-r401#0.0.1 (canonical = http://example.com/minimal-r401)
+ Build Errors : 5 / 1 / 0
+ /ig/fsh-generated/resources/StructureDefinition-fsh-patient : 0 / 1 / 1
+ /ig/input/examples/Bundle-ptb-1 : 9 / 0 / 6
+ /ig/input/ig : 0 / 0 / 1
+ /ig/input/resources/StructureDefinition-r4-json-patient : 0 / 1 / 1
+ /ig/input/resources/StructureDefinition-r4-xml.patient : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/ptb-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /ig/output/Bundle-ptb-1.html#/html/body/div/div/div/div/div/div/div/p/a at Line 227, column 18: The link 'StructureDefinition-Phenopacket.html' for "Phenopacket profile" cannot be resolved
+ERROR: /ig/output/Bundle-ptb-1.html#/html/body/div/div/div/div/div/div/p/a at Line 254, column 16: The link 'Practitioner-PeterGeneticist.html' for "Practitioner/PeterGeneticist" cannot be resolved
+ERROR: /ig/output/Bundle-ptb-1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 261, column 172: The link 'Observation-hp.0000343.html' for "Observation/hp.0000343" cannot be resolved
+ERROR: /ig/output/Bundle-ptb-1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 261, column 383: The link 'Specimen-biosample.specimen.id.2.html' for "Specimen/biosample.specimen.id.2" cannot be resolved
+ERROR: /ig/output/Bundle-ptb-1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 261, column 610: The link 'Condition-id.disease.intellectualDisability.html' for "Condition/id.disease.intellectualDisability" cannot be resolved
+== fsh-generated/resources/StructureDefinition-fsh-patient.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/minimal-r401/StructureDefinition/fsh-patient'): The Implementation Guide contains no examples for this profile
+== input/examples/Bundle-ptb-1.xml ==
+ERROR: Bundle/ptb-1: Bundle: Rule bdl-9: 'A document must have an identifier with a system and a value' Failed
+ERROR: Bundle/ptb-1: Bundle: Rule bdl-10: 'A document must have a date' Failed
+ERROR: Bundle/ptb-1: Bundle.entry[0]: Bundle entry missing fullUrl
+ERROR: Bundle/ptb-1: Bundle.entry[0].resource.ofType(Composition).subject: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/ptb-1: Bundle.entry[0].resource.ofType(Composition).author[0]: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+INFORMATION: Bundle/ptb-1: Bundle.entry[0].resource.ofType(Composition).section[0].code.coding[0]: Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated
+ERROR: Bundle/ptb-1: Bundle.entry[0].resource.ofType(Composition).section[0].entry[0]: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+INFORMATION: Bundle/ptb-1: Bundle.entry[0].resource.ofType(Composition).section[1].code.coding[0]: Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated
+ERROR: Bundle/ptb-1: Bundle.entry[0].resource.ofType(Composition).section[1].entry[0]: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+INFORMATION: Bundle/ptb-1: Bundle.entry[0].resource.ofType(Composition).section[2].code.coding[0]: Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated
+ERROR: Bundle/ptb-1: Bundle.entry[0].resource.ofType(Composition).section[2].entry[0]: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/ptb-1: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry  
+== input/ig.xml ==
+== input/resources/StructureDefinition-r4-json-patient.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/minimal-r401/StructureDefinition/r4-json-patient'): The Implementation Guide contains no examples for this profile
+== input/resources/StructureDefinition-r4-xml.patient.xml ==
+WARNING: StructureDefinition.where(url = 'http://example.com/minimal-r401/StructureDefinition/r4-xml.patient'): The Implementation Guide contains no examples for this profile
