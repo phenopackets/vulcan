@@ -1,0 +1,79 @@
+{
+  "resourceType": "Patient",
+  "id": "example-patient",
+  "meta": {
+    "profile": [
+      "https://github.com/phenopackets/core-ig/StructureDefinition/Individual"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Anyname A. Anyperson </b> male, DoB: 2001-01-20 ( Medical Record Number: m123 (USUAL))</p></div>"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record Number"
+          }
+        ]
+      },
+      "system": "http://hospital.example.org",
+      "value": "m123"
+    }
+  ],
+  "name": [
+    {
+      "family": "Anyperson",
+      "given": [
+        "Anyname",
+        "A."
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "2001-01-20",
+  "address": [
+    {
+      "line": [
+        "123 Any St"
+      ],
+      "city": "Anytown",
+      "postalCode": "12345",
+      "country": "US"
+    }
+  ],
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "777-444-2222",
+          "use": "home"
+        },
+        {
+          "system": "email",
+          "value": "anyname.anyperson@example.com"
+        }
+      ]
+    }
+  ],
+  "communication": [
+    {
+      "language": {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en-US",
+            "display": "English (Region=United States)"
+          }
+        ],
+        "text": "English"
+      }
+    }
+  ]
+}

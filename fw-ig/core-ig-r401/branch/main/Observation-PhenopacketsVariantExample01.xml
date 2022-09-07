@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="PhenopacketsVariantExample01"/>
+  <meta>
+    <profile value="https://github.com/phenopackets/core-ig/StructureDefinition/phenopackets-variant"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation "PhenopacketsVariantExample01" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-phenopackets-variant.html">Phenopackets Variant</a></p></div><p><b>ACMG Pathogenicity Classification</b>: PATHOGENIC <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (variant-interpretation.html#acmgpathogenicityclassification#5; <a href="https://loinc.org/">LOINC</a>#LA6668-3)</span></p><p><b>Therapeutic Actionability</b>: UNKNOWN_ACTIONABILITY <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (variant-interpretation.html#therapeuticactionability#0)</span></p><p><b>Molecule Context</b>: genomic <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (variant.html#rstmoleculecontext#1)</span></p><p><b>VRS Object</b>: </p><p><b>status</b>: unknown</p><p><b>category</b>: Laboratory <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-observation-category.html">Observation Category Codes</a>#laboratory)</span></p><p><b>code</b>: Genetic variant assessment <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#69548-6)</span></p><p><b>subject</b>: <a href="Patient-phenopacketPatientExample01.html">Patient/phenopacketPatientExample01</a> " DOE"</p><p><b>value</b>: Present <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA9633-4)</span></p><blockquote><p><b>component</b></p><p><b>code</b>: Gene studied [ID] <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#48018-6)</span></p><p><b>value</b>: ETF1 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#HGNC:3477)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Cytogenetic (chromosome) location <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#48001-2)</span></p><p><b>value</b>: 10 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA21263-1)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Human reference sequence assembly version <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#62374-4)</span></p><p><b>value</b>: GRCh38 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA26806-2)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Genomic ref allele [ID] <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#69547-8)</span></p><p><b>value</b>: T</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Genomic alt allele [ID] <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#69551-0)</span></p><p><b>value</b>: G</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Genomic coordinate system [Type] <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#92822-6)</span></p><p><b>value</b>: 1-based character counting <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA30102-0)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>Filter Status</b>: PASS</p><p><b>code</b>: Variant exact start and end <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/uv/genomics-reporting/STU1/tbd-codes.html">tbd-codes</a>#exact-start-end)</span></p><p><b>value</b>: 121496701-?</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: dbSNP [ID] <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#81255-2)</span></p><p><b>value</b>: rs121918506, FGFR2 : Missense Variant <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#rs121918506)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Discrete genetic variant <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#81252-9)</span></p><p><b>value</b>: NM_001144915.2:c.1427A&gt;C <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#NM_001144915.2)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: functional-annotation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/uv/genomics-reporting/STU1/tbd-codes.html">tbd-codes</a>#functional-annotation)</span></p><p><b>value</b>: feature_variant (SO:0001878) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#0001878)</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Allelic state <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#53034-5)</span></p><p><b>value</b>: Heterozygous <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (geno#0000135)</span></p></blockquote></div>
+  </text>
+  <extension url="https://github.com/phenopackets/core-ig/StructureDefinition/acmg-pathogenicity-classification">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://phenopacket-schema.readthedocs.io/en/v2/variant-interpretation.html#acmgpathogenicityclassification"/>
+        <code value="5"/>
+        <display value="PATHOGENIC"/>
+      </coding>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="LA6668-3"/>
+        <display value="PATHOGENIC"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://github.com/phenopackets/core-ig/StructureDefinition/therapeutic-actionability">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://phenopacket-schema.readthedocs.io/en/v2/variant-interpretation.html#therapeuticactionability"/>
+        <code value="0"/>
+        <display value="UNKNOWN_ACTIONABILITY"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://github.com/phenopackets/core-ig/StructureDefinition/molecule-context">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://phenopacket-schema.readthedocs.io/en/v2/variant.html#rstmoleculecontext"/>
+        <code value="1"/>
+        <display value="genomic"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://github.com/phenopackets/core-ig/StructureDefinition/vrs-object">
+    <valueAttachment>
+      <title value="VrsObject Example"/>
+    </valueAttachment>
+  </extension>
+  <status value="unknown"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="laboratory"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="69548-6"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/phenopacketPatientExample01"/>
+  </subject>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA9633-4"/>
+      <display value="Present"/>
+    </coding>
+  </valueCodeableConcept>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48018-6"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://www.genenames.org/"/>
+        <code value="HGNC:3477"/>
+        <display value="ETF1"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48001-2"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="LA21263-1"/>
+        <display value="10"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="62374-4"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="LA26806-2"/>
+        <display value="GRCh38"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="69547-8"/>
+      </coding>
+    </code>
+    <valueString value="T"/>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="69551-0"/>
+      </coding>
+    </code>
+    <valueString value="G"/>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="92822-6"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="LA30102-0"/>
+        <display value="1-based character counting"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <extension url="https://github.com/phenopackets/core-ig/StructureDefinition/filter-status">
+      <valueString value="PASS"/>
+    </extension>
+    <code>
+      <coding>
+        <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes"/>
+        <code value="exact-start-end"/>
+      </coding>
+    </code>
+    <valueRange>
+      <low>
+        <value value="121496701"/>
+      </low>
+    </valueRange>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="81255-2"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://www.ncbi.nlm.nih.gov/snp/"/>
+        <code value="rs121918506"/>
+        <display value="rs121918506, FGFR2 : Missense Variant"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="81252-9"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://www.hgvs.org/"/>
+        <code value="NM_001144915.2"/>
+        <display value="NM_001144915.2:c.1427A&gt;C"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes"/>
+        <code value="functional-annotation"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://www.sequenceontology.org/"/>
+        <code value="0001878"/>
+        <display value="feature_variant (SO:0001878)"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="53034-5"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://www.ebi.ac.uk/ols/ontologies/geno"/>
+        <code value="0000135"/>
+        <display value="Heterozygous"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+</Observation>

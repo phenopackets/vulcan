@@ -1,0 +1,986 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "c3dbfecf-a99d-46e8-9b77-9e189552e47d-72",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/c3dbfecf-a99d-46e8-9b77-9e189552e47d-72",
+  "name" : "IntersectionUSCoreSurveyCodesAndLOINCCodes",
+  "title" : "Intersection of US Core Survey Codes And LOINC Codes",
+  "status" : "active",
+  "date" : "2022-09-07T17:42:56+00:00",
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "100002-5",
+      "display" : "Specimen care is maintained"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100003-3",
+      "display" : "Team communication is maintained throughout care"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100004-1",
+      "display" : "Demonstrates knowledge of the expected psychosocial responses to the procedure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100005-8",
+      "display" : "Demonstrates knowledge of nutritional management related to the procedure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100006-6",
+      "display" : "Demonstrates knowledge of medication management"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100007-4",
+      "display" : "Demonstrates knowledge of pain management"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100008-2",
+      "display" : "Demonstrates knowledge of wound management"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100009-0",
+      "display" : "Demonstrates knowledge of the procedure and expected results"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100010-8",
+      "display" : "No injury related to procedure equipment, medical supplies, or instrumentation"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100011-6",
+      "display" : "No injury related to an electrical source"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100012-4",
+      "display" : "Participates in decisions affecting the patient's plan of care"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100013-2",
+      "display" : "Participates in the discharge process"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100014-0",
+      "display" : "Psychosocial health is maintained at or improved from baseline"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100015-7",
+      "display" : "No injury related to positioning due to care or procedure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100016-5",
+      "display" : "No injury related to a laser source"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100017-3",
+      "display" : "Perioperative nursing data set outcomes panel [PNDS]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100030-6",
+      "display" : "Axis I: Temporal aspects score [Mainz Pain Staging System]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100031-4",
+      "display" : "Axis II: Spatial aspects score [Mainz Pain Staging System]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100032-2",
+      "display" : "Axis III: Drug taking behavior score [Mainz Pain Staging System]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100033-0",
+      "display" : "Axis IV: Utilization of the health care system score [Mainz Pain Staging System]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100159-3",
+      "display" : "Knee Society Score pre-op panel [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100168-4",
+      "display" : "Knee pain severity with level walking"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100169-2",
+      "display" : "Knee pain severity with stairs or inclines"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100170-0",
+      "display" : "Knee feels normal"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100171-8",
+      "display" : "Satisfaction with level of knee pain while sitting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100172-6",
+      "display" : "Satisfaction with level of knee pain while lying in bed"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100173-4",
+      "display" : "Satisfaction with knee function while getting out of bed"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100174-2",
+      "display" : "Satisfaction with knee function while performing light household duties"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100175-9",
+      "display" : "Satisfaction with knee function while performing recreational activities"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100176-7",
+      "display" : "Expect surgery to relieve pain"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100177-5",
+      "display" : "Expect surgery will improve ability to perform activities of daily living"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100178-3",
+      "display" : "Expect surgery will improve ability to perform leisure, recreational, or sports activities"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100179-1",
+      "display" : "Walk without assistive mobility devices"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100180-9",
+      "display" : "Assistive mobility devices used"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100181-7",
+      "display" : "Assistive mobility devices used due to health condition"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100182-5",
+      "display" : "Duration of standing before sitting due to knee discomfort"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100183-3",
+      "display" : "Duration of walking before stopping due to knee discomfort"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100184-1",
+      "display" : "How bothersome is knee when walking on an uneven surface"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100185-8",
+      "display" : "How bothersome is knee when turning or pivoting leg"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100186-6",
+      "display" : "How bothersome is knee when climbing up or down a flight of stairs"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100187-4",
+      "display" : "How bothersome is knee when getting up from a low seat without armrests"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100188-2",
+      "display" : "How bothersome is knee when getting into or out of a car"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100189-0",
+      "display" : "How bothersome is knee when moving laterally"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100190-8",
+      "display" : "How bothersome is knee when climbing a ladder or step stool"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100191-6",
+      "display" : "How bothersome is knee when carrying a bag for one block"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100192-4",
+      "display" : "How bothersome is knee when squatting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100193-2",
+      "display" : "How bothersome is knee when kneeling"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100194-0",
+      "display" : "How bothersome is knee when running"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100195-7",
+      "display" : "Pain severity--during activity"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100196-5",
+      "display" : "Pre-op total score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100197-3",
+      "display" : "Exercise activity and pain severity panel"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100198-1",
+      "display" : "Pre-op objective knee indicators score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100199-9",
+      "display" : "Pre-op symptoms score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100200-5",
+      "display" : "Pre-op patient expectations score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100201-3",
+      "display" : "Pre-op functional activities score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100202-1",
+      "display" : "Pre-op discretionary knee activities score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100203-9",
+      "display" : "Knee Society Score post-op panel [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100204-7",
+      "display" : "Accuracy of pre-surgery expectations of pain relief"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100205-4",
+      "display" : "Accuracy of pre-surgery expectations to perform activities of daily living"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100206-2",
+      "display" : "Accuracy of pre-surgery expectations to perform leisure, recreational, or sports activities"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100207-0",
+      "display" : "Post-op total score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100208-8",
+      "display" : "Post-op objective knee indicators score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100209-6",
+      "display" : "Post-op symptoms score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100210-4",
+      "display" : "Post-op patient expectations score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100211-2",
+      "display" : "Post-op functional activities score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100212-0",
+      "display" : "Post-op discretionary knee activities score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100232-8",
+      "display" : "Impacts of Events Scale-Revised panel"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100233-6",
+      "display" : "Reminders brought back feelings about adverse event"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100234-4",
+      "display" : "Trouble staying asleep"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100235-1",
+      "display" : "Other things triggered persistent thoughts about adverse event"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100236-9",
+      "display" : "Felt irritable AndOr angry"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100237-7",
+      "display" : "Avoided getting upset when unintentionally thought about adverse event"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100238-5",
+      "display" : "Thought about adverse event unintentionally"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100239-3",
+      "display" : "Felt as if adverse event did not happen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100240-1",
+      "display" : "Avoided reminders of adverse event"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100241-9",
+      "display" : "Experienced mental images of adverse event"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100242-7",
+      "display" : "Easily startled"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100243-5",
+      "display" : "Tried to not think of adverse event"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100244-3",
+      "display" : "Aware of feelings about adverse event, but did not address them"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100245-0",
+      "display" : "Feelings about adverse event were numb"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100246-8",
+      "display" : "Acted or felt the same as during adverse event"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100247-6",
+      "display" : "Trouble falling asleep"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100248-4",
+      "display" : "Waves of strong feelings about adverse event"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100249-2",
+      "display" : "Tried to remove adverse event from memory"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100250-0",
+      "display" : "Trouble concentrating"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100251-8",
+      "display" : "Reminders of adverse event caused physical reactions"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100252-6",
+      "display" : "Had dreams about adverse event"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100253-4",
+      "display" : "Felt watchful and on-guard"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100254-2",
+      "display" : "Tried not to talk about adverse event"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100255-9",
+      "display" : "Total score [Impact of Event Scale-Revised]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100259-1",
+      "display" : "Aware of tactile sensations"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100260-9",
+      "display" : "Easy to describe thoughts AndOr feelings"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100261-7",
+      "display" : "Critical of own thoughts AndOr feelings"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100262-5",
+      "display" : "Able to notice distressing thoughts AndOr feelings without having to react"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100263-3",
+      "display" : "Easily distracted"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100264-1",
+      "display" : "Able to notice thoughts AndOr feelings without being overwhelmed"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100265-8",
+      "display" : "Aware of dietary intake impact on self"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100266-6",
+      "display" : "Difficult to describe thoughts AndOr feelings"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100267-4",
+      "display" : "Aware of auditory stimuli"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100268-2",
+      "display" : "Able to avoid immediate reaction in difficult situations"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100269-0",
+      "display" : "Do things without paying attention"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100270-8",
+      "display" : "Recover quickly from distressing thoughts AndOr images"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100271-6",
+      "display" : "Aware of olfactory stimuli"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100272-4",
+      "display" : "Aware of visual stimuli"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100273-2",
+      "display" : "Aware of emotions affect on thoughts AndOr behavior"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100274-0",
+      "display" : "Observing score [FFMQ]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100275-7",
+      "display" : "Describing score [FFMQ]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100276-5",
+      "display" : "Acting with awareness score [FFMQ]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100277-3",
+      "display" : "Nonjudging score [FFMQ]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100278-1",
+      "display" : "Nonreactivity score [FFMQ]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100279-9",
+      "display" : "Total score [FFMQ]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100280-7",
+      "display" : "Five Facet Mindfulness Questionnaire panel [FFMQ]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100283-1",
+      "display" : "Harris Hip Score panel [Harris Hip Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100284-9",
+      "display" : "Walking - functional ability"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100285-6",
+      "display" : "Comfortable seated position"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100286-4",
+      "display" : "Able to board public transportation"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100287-2",
+      "display" : "Put on shoes and socks"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100288-0",
+      "display" : "Absence of deformity score [Harris Hip Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100289-8",
+      "display" : "Absence of hip deformity measurements"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100290-6",
+      "display" : "Range of motion score [Harris Hip Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100291-4",
+      "display" : "Total score [Harris Hip Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100292-2",
+      "display" : "Pre-op patient satisfaction score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100293-0",
+      "display" : "Hip Flexion range of motion"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100294-8",
+      "display" : "Hip Abduction range of motion"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100295-5",
+      "display" : "Hip Adduction range of motion"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100296-3",
+      "display" : "Hip External rotation range of motion"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100297-1",
+      "display" : "Hip Internal rotation range of motion"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100299-7",
+      "display" : "Post-op patient satisfaction score [Knee Society Score]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100307-8",
+      "display" : "Behavioral screening elder mistreatment"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100308-6",
+      "display" : "Need help getting to essential places"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100309-4",
+      "display" : "Activity support person"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100310-2",
+      "display" : "Reliability of support person"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100311-0",
+      "display" : "Need help to make sure there is enough food, medicines or any other things needed in house"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100312-8",
+      "display" : "Person or persons that makes sure there is enough food, medicines or any other things needed in house"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100313-6",
+      "display" : "Need help with household things such as cook meals, help feed, or provide correct medicines each day"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100314-4",
+      "display" : "Need help with house cleaning or yard work"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100315-1",
+      "display" : "Need help getting out of bed, showered, or dressed"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100316-9",
+      "display" : "Need help to make sure bills get paid"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100317-7",
+      "display" : "Relationship of usual support person for daily activities"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100318-5",
+      "display" : "Have help with finances AndOr financial decisions"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100319-3",
+      "display" : "Relationship of financial support person"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100320-1",
+      "display" : "Financial support person usually asks for permission before making decisions"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100321-9",
+      "display" : "Financial support person usually makes good decisions about finances"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100322-7",
+      "display" : "Have access to paperwork for financial decisions made"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100323-5",
+      "display" : "Financial support person forged signature"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100324-3",
+      "display" : "Coercion of financial support person for signing a document in order to get money or possessions"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100325-0",
+      "display" : "Experienced theft by support person"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100326-8",
+      "display" : "Money spent or property sold without permission"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100327-6",
+      "display" : "Stranger forged signature for financial gain"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100328-4",
+      "display" : "Stranger forced document signature for financial gain"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100329-2",
+      "display" : "Feared for safety due to verbal attack"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100330-0",
+      "display" : "Felt humiliated due to ridicule"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100331-8",
+      "display" : "Coerced to do something"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100332-6",
+      "display" : "Ignored by close friend or relative for extended period"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100333-4",
+      "display" : "Physically hit or threatened"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100334-2",
+      "display" : "Been physically hurt with some degree of injury"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100335-9",
+      "display" : "Coerced sexual activity"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100336-7",
+      "display" : "Coerced touching of private body parts of self or others"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100337-5",
+      "display" : "Coerced to undress or expose private body area"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100338-3",
+      "display" : "Photographed in any degree of nudity without consent"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100339-1",
+      "display" : "Experienced attempted physical restraint"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100340-9",
+      "display" : "Range of motion panel Hip"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100353-2",
+      "display" : "Norwalk Community Health Center Screening Tool [NCHC]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100354-0",
+      "display" : "Frequency of participating in multi-modal communication without assistance"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100355-7",
+      "display" : "Frequency of participating in spoken language expression communication without assistance"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100360-7",
+      "display" : "Brief Resilience Scale panel [BRS]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100361-5",
+      "display" : "Quickly recover from bad events"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100362-3",
+      "display" : "Difficulty making it through stressful events"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100363-1",
+      "display" : "Easily recover from a stressful event"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100364-9",
+      "display" : "Difficulty recovering from bad events"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100365-6",
+      "display" : "Easily recover from difficulties"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100366-4",
+      "display" : "Lengthy recovery from setbacks"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100367-2",
+      "display" : "Total Score BRS"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100766-5",
+      "display" : "Center for Epidemiologic Studies Depression Scale panel [CES-D]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100767-3",
+      "display" : "Bothered by things that are not usually bothersome"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100768-1",
+      "display" : "Poor appetite"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100769-9",
+      "display" : "Unhappy even with help from my family or friends"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100770-7",
+      "display" : "Feeling just as good as others"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100771-5",
+      "display" : "Trouble focusing"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100772-3",
+      "display" : "Feeling depressed"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100773-1",
+      "display" : "Feeling everything is too much of an effort"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100774-9",
+      "display" : "Feeling hopeful about the future"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100775-6",
+      "display" : "Feeling life had been a failure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100776-4",
+      "display" : "Feeling fearful"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100777-2",
+      "display" : "Restless sleep"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100778-0",
+      "display" : "Feeling happy"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100779-8",
+      "display" : "Quieter than usual"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100780-6",
+      "display" : "Feeling lonely"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100781-4",
+      "display" : "People were unfriendly"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100782-2",
+      "display" : "Enjoying life"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100783-0",
+      "display" : "Crying spells"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100784-8",
+      "display" : "Feeling sad"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100785-5",
+      "display" : "Feeling people dislike me"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100786-3",
+      "display" : "Lack of energy"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "100787-1",
+      "display" : "Total Score CES-D"
+    }]
+  }
+}
