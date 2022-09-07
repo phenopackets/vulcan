@@ -9,7 +9,7 @@ name: fw-ig-core-ig-r401
 # 5. Enable GitHub actions and write access to this repository.
 # 6.
 env:
-  IG_PATH: 'fw-ig/drafting-r401'  # The relative folder path of the IG root directory
+  IG_PATH: 'fw-ig/core-ig-r401'  # The relative folder path of the IG root directory
   IG_READ_SECRET_NAME: GITHUB_TOKEN
   IG_WRITE_SECRET_NAME: GITHUB_TOKEN
 

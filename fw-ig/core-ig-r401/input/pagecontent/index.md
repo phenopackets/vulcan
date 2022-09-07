@@ -28,4 +28,3 @@ This implementation guide uses terminology, notations and design principles that
 - [Base resource](http://hl7.org/fhir/resource.html)
 
 This implementation guide builds on FHIR v4.0.1: R4.
-
