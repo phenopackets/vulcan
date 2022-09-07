@@ -1,4 +1,4 @@
-name: fw-ig-drafting-r401
+name: fw-ig-core-ig-r401
 
 # Setup:
 # 1. Copy this file and name it to match the IG folder name to help relate the file to the IG. The file name it not
@@ -36,15 +36,15 @@ on:
   push:
     branches: [ main, master, dev ]
     paths:
-      - 'fw-ig/drafting-r401/**'
-      - '.github/workflows/fw-ig-drafting-r401.yml'
+      - 'fw-ig/core-ig-r401/**'
+      - '.github/workflows/fw-ig-core-ig-r401.yml'
       - '.github/workflows/_fw-ig-build-callable.yml'
       - '!**/README*'
 
   pull_request_target:
     paths:
-      - 'fw-ig/drafting-r401/**'
-      - '.github/workflows/fw-ig-drafting-r401.yml'
+      - 'fw-ig/core-ig-r401/**'
+      - '.github/workflows/fw-ig-core-ig-r401.yml'
       - '.github/workflows/_fw-ig-build-callable.yml'
       - '!**/README*'
 

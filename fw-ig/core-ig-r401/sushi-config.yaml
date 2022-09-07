@@ -1,0 +1,78 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: hl7.fhir.us.ga4gh.phenopacket
+canonical: https://github.com/phenopackets/core-ig
+name: GA4GHPhenopacketIG
+title: "GA4GH Phenopacket (version 2) FHIR Implementation Guide"
+description: "FHIR implementation guide for the Global Alliance for Genomics and Health Phenopacket standard."
+status: draft
+license: CC0-1.0
+version: 0.1.1
+fhirVersion: 4.0.1
+copyrightYear: 2021+
+copyright: "[Global Alliance for Genomics and Health](https://www.ga4gh.org)"
+releaseLabel: ci-build
+publisher:
+  name: "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"
+  url: https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/
+
+jurisdiction: urn:iso:std:iso:3166#US
+# jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
+pages:
+  index.md:
+    title: Home
+  ga4gh.md:
+    title: GA4GH
+  genomicDiagnostics.md:
+    title: Genomic Diagnostics
+  phenotype.md:
+    title: Deep phenotyping
+  modeling.md:
+    title: Modeling phenotypic data
+  hpo.md:
+    title: Human Phenotype Ontology
+  examples.md:
+    title: Examples
+
+menu:
+  Home: index.html
+  Background:
+    GA4GH: ga4gh.html
+    Deep phenotyping: phenotype.html
+    HPO: hpo.html
+    Modeling: modeling.html
+    Genomic Diagnostics: genomicDiagnostics.html
+  Profiles:
+    Biosample: StructureDefinition-Biosample.html
+    Disease: StructureDefinition-Disease.html
+    Individual: StructureDefinition-Individual.html
+    Measurement: StructureDefinition-Measurement.html
+    PhenotypicFeature: StructureDefinition-PhenotypicFeature.html
+    Phenopacket: StructureDefinition-Phenopacket.html
+    Treatment: StructureDefinition-Treatment.html
+    PhenopacketsVariant: StructureDefinition-phenopackets-variant.html
+    PhenopacketsGenomicInterpretation: StructureDefinition-phenopackets-genomic-interpretation.html
+  Extensions:
+    CodedOnset: StructureDefinition-CodedOnset.html
+    DiagnosticMarker: StructureDefinition-DiagnosticMarker.html
+    KaryotypicSex: StructureDefinition-KaryotypicSex.html
+    MaterialSample: StructureDefinition-MaterialSample.html
+  Examples: examples.html
+  Artifacts: artifacts.html
+#  History:
+#    Change Log: change_log.html
+#    Other Versions: http://hl7.org/fhir/us/mcode/history.html
+
+
+parameters:
+  apply-contact: true
+  apply-jurisdiction: true
+  apply-publisher: true
+
+dependencies:
+  hl7.fhir.uv.genomics-reporting: 2.0.0
+#    id: genomics-reporting
+#    uri: http://hl7.org/fhir/uv/genomics-reporting/ 
+#    version: 1.0.0  
