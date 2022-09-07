@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c3dbfecf-a99d-46e8-9b77-9e189552e47d-141",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c3dbfecf-a99d-46e8-9b77-9e189552e47d-141",
+  "id" : "733f5653-54ea-400a-9ef3-408098b3d2cb-141",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/733f5653-54ea-400a-9ef3-408098b3d2cb-141",
   "name" : "IntersectionUSCoreObservationSurveyProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Observation Survey Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2022-09-07T17:42:57+00:00",
+  "date" : "2022-09-07T18:21:55+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

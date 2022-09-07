@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "c3dbfecf-a99d-46e8-9b77-9e189552e47d-44",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/c3dbfecf-a99d-46e8-9b77-9e189552e47d-44",
+  "id" : "733f5653-54ea-400a-9ef3-408098b3d2cb-44",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/733f5653-54ea-400a-9ef3-408098b3d2cb-44",
   "name" : "UnionUSCoreClinicalTestCodesAndLOINCCodes",
   "title" : "Union of US Core Clinical Test Codes And LOINC Codes",
   "status" : "active",
-  "date" : "2022-09-07T17:42:55+00:00",
+  "date" : "2022-09-07T18:21:54+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

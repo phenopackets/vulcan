@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "c3dbfecf-a99d-46e8-9b77-9e189552e47d-167",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/c3dbfecf-a99d-46e8-9b77-9e189552e47d-167",
+  "id" : "733f5653-54ea-400a-9ef3-408098b3d2cb-167",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/733f5653-54ea-400a-9ef3-408098b3d2cb-167",
   "name" : "UnionUSCoreDiagnosticReportLabCodesAndLOINCDiagnosticReportCodes",
   "title" : "Union of US Core Diagnostic Report Laboratory Codes And LOINC Diagnostic Report Codes",
   "status" : "active",
-  "date" : "2022-09-07T17:42:59+00:00",
+  "date" : "2022-09-07T18:21:57+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

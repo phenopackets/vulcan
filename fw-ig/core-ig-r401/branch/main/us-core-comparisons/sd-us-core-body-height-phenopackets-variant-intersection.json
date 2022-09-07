@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c3dbfecf-a99d-46e8-9b77-9e189552e47d-192",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c3dbfecf-a99d-46e8-9b77-9e189552e47d-192",
+  "id" : "733f5653-54ea-400a-9ef3-408098b3d2cb-192",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/733f5653-54ea-400a-9ef3-408098b3d2cb-192",
   "name" : "IntersectionUSCoreBodyHeightProfileAndPhenopacketsVariant",
   "title" : "Intersection of US Core Body Height Profile And Phenopackets Variant",
   "status" : "active",
-  "date" : "2022-09-07T17:42:59+00:00",
+  "date" : "2022-09-07T18:21:58+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
