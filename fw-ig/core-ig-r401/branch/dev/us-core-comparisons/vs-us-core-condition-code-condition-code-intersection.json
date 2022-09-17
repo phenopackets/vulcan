@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "187c3456-a784-4987-8ebb-3417e66b4b39-159",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/187c3456-a784-4987-8ebb-3417e66b4b39-159",
+  "name" : "IntersectionUSCoreConditionCodesAndCondition/Problem/DiagnosisCodes",
+  "title" : "Intersection of US Core Condition Codes And Condition/Problem/Diagnosis Codes",
+  "status" : "active",
+  "date" : "2022-09-17T05:24:56+00:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "404684003"
+      }]
+    }]
+  }
+}
