@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "187c3456-a784-4987-8ebb-3417e66b4b39-155",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/187c3456-a784-4987-8ebb-3417e66b4b39-155",
+  "id" : "6e65b4b6-b338-409e-9fd2-cb0b4b2c8aa3-155",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6e65b4b6-b338-409e-9fd2-cb0b4b2c8aa3-155",
   "name" : "UnionUSCoreConditionEncounterDiagnosisProfileAndDisease",
   "title" : "Union of US Core Condition Encounter Diagnosis Profile And Disease profile",
   "status" : "active",
-  "date" : "2022-09-17T05:24:56+00:00",
+  "date" : "2022-09-17T15:09:25+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -607,7 +607,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: Valueset to describe the actual problem experienced by the patient; right: Identification of the condition or diagnosis.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/187c3456-a784-4987-8ebb-3417e66b4b39-158"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6e65b4b6-b338-409e-9fd2-cb0b4b2c8aa3-158"
       },
       "mapping" : [{
         "identity" : "workflow",

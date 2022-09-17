@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "InterpretationStatus"];
   fhir:StructureDefinition.title [ fhir:value "Interpretation Status"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-09-17T05:24:31+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-09-17T15:08:57+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

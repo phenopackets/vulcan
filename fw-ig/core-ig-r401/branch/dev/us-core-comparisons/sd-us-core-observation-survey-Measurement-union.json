@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "187c3456-a784-4987-8ebb-3417e66b4b39-68",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/187c3456-a784-4987-8ebb-3417e66b4b39-68",
+  "id" : "6e65b4b6-b338-409e-9fd2-cb0b4b2c8aa3-68",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6e65b4b6-b338-409e-9fd2-cb0b4b2c8aa3-68",
   "name" : "UnionUSCoreObservationSurveyProfileAndMeasurement",
   "title" : "Union of US Core Observation Survey Profile And Measurement",
   "status" : "active",
-  "date" : "2022-09-17T05:24:56+00:00",
+  "date" : "2022-09-17T15:09:24+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -575,7 +575,7 @@
       "binding" : {
         "strength" : "preferred",
         "description" : "Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/187c3456-a784-4987-8ebb-3417e66b4b39-71"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6e65b4b6-b338-409e-9fd2-cb0b4b2c8aa3-71"
       },
       "mapping" : [{
         "identity" : "workflow",
