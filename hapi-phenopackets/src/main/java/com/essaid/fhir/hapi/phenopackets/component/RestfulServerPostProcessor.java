@@ -12,7 +12,6 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 @Component
-
 public class RestfulServerPostProcessor implements BeanPostProcessor {
   //private final RestfulServer restfulServer;
   
@@ -33,7 +32,6 @@ public class RestfulServerPostProcessor implements BeanPostProcessor {
     //System.out.println("==========  POST:" + beanName);
     
     if(beanName.equals("restfulServer")){
-      //restfulServer.registerProvider(applicationContext.getBean(PatientPhenopacketProvider.class));
       ((RestfulServer) bean).registerProvider(patientPhenopacketProvider);
       //restfulServer.registerProvider(applicationContext.getBean(PatientPhenopacketProvider.class));
       System.out.println("============= Registered PatientPhenopacketProvider");

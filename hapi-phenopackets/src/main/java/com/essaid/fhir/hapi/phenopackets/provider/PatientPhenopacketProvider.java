@@ -6,20 +6,22 @@ import ca.uhn.fhir.rest.server.IResourceProvider;
 import org.hl7.fhir.instance.model.api.IBaseResource;
 import org.hl7.fhir.r4.model.Bundle;
 import org.hl7.fhir.r4.model.Patient;
+import org.monarchinitiative.hapiphenocore.phenopacket.Phenopacket;
 import org.springframework.stereotype.Component;
 
 @Component
 public class PatientPhenopacketProvider implements IResourceProvider {
-  PatientPhenopacketProvider() {
-    System.out.println("================================= PatientPhenopacketProvider constructed  " +
-        "=============================");
-  }
+//  PatientPhenopacketProvider() {
+//    System.out.println("================================= PatientPhenopacketProvider constructed  " +
+//        "=============================");
+//  }
   
-  @Operation(name = "$helloPhenopacket", bundleType = BundleTypeEnum.DOCUMENT,idempotent = true )
-  public Bundle helloPhenopacket(){
-    Bundle bundle = new Bundle();
-    bundle.setId("hello-phenopacket");
-    return  bundle;
+  @Operation(name = "$helloPhenopacket", idempotent = true)
+  public Phenopacket helloPhenopacket() {
+    Phenopacket pp = new Phenopacket();
+    pp.setId("phenopacket-id");
+    
+    return  pp;
   }
   
   @Override
