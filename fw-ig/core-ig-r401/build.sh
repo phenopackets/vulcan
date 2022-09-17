@@ -18,4 +18,4 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 cd "$DIR"
 docker pull sessaid/ig-publisher:latest
-docker run --rm --volume "$(pwd):/ig" sessaid/ig-publisher:latest -ig ig.ini
+docker run --rm --volume "$(pwd):/ig" sessaid/ig-publisher:1.2.1-latest -ig ig.ini
