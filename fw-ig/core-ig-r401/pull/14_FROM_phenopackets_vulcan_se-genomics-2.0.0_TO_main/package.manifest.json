@@ -1,8 +1,6 @@
 {
-  "version": "0.1.0",
-  "fhirVersion": [
-    "4.0.1"
-  ],
-  "date": "20220917205517",
-  "name": "hl7.fhir.us.ga4gh.phenopacket"
+  "version" : "0.1.0",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20230126174656",
+  "name" : "hl7.fhir.us.ga4gh.phenopacket"
 }

@@ -1,9 +1,0 @@
-{
-  "resourceType" : "ValueSet",
-  "id" : "925cafa9-24ab-4701-be5e-e61534467449-45",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/925cafa9-24ab-4701-be5e-e61534467449-45",
-  "name" : "IntersectionUSCoreClinicalTestCodesAndLOINCCodes",
-  "title" : "Intersection of US Core Clinical Test Codes And LOINC Codes",
-  "status" : "active",
-  "date" : "2022-09-17T20:56:30+00:00"
-}

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "6062dfa5-560b-4feb-91ce-8c981cbb37df",
+  "id" : "18bea3c9-af50-42b5-b633-6e0d7ec7c7dc",
   "meta" : {
-    "lastUpdated" : "2022-09-17T20:56:08.664+00:00"
+    "lastUpdated" : "2023-01-26T17:47:50.371+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -37,8 +37,8 @@
       }],
       "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
       "expansion" : {
-        "identifier" : "urn:uuid:50274e1c-e861-4291-9275-b854902130b4",
-        "timestamp" : "2022-09-17T20:56:47+00:00",
+        "identifier" : "urn:uuid:9a9f5da4-b4b1-474f-9807-7c9e4b7ea2ba",
+        "timestamp" : "2023-01-26T17:48:50+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -107,80 +107,20 @@
     }
   },
   {
-    "fullUrl" : "https://github.com/phenopackets/core-ig/ValueSet/phenotypicFeatureVS",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "phenotypicFeatureVS",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.73</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA9633-4\"> </a>  <a href=\"http://details.loinc.org/LOINC/LA9633-4.html\">LA9633-4</a></td><td>http://loinc.org</td><td>Present</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA9634-2\"> </a>  <a href=\"http://details.loinc.org/LOINC/LA9634-2.html\">LA9634-2</a></td><td>http://loinc.org</td><td>Absent</td></tr></table></div>"
-      },
-      "url" : "https://github.com/phenopackets/core-ig/ValueSet/phenotypicFeatureVS",
-      "version" : "0.1.0",
-      "name" : "PhenotypicFeatureStatusValueSet",
-      "title" : "Observation Codes for status of a PhenotypicFeature",
-      "status" : "active",
-      "date" : "2022-09-17T20:56:08+00:00",
-      "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
-      "contact" : [{
-        "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"
-        }]
-      }],
-      "description" : "The LOINC codes for present if a feature is observed and absent if a feature was excluded.",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "US"
-        }]
-      }],
-      "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
-      "expansion" : {
-        "identifier" : "urn:uuid:371eff55-7d49-4447-aba5-1dc07c7119b1",
-        "timestamp" : "2022-09-17T20:57:02+00:00",
-        "total" : 2,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://loinc.org|2.73"
-        }],
-        "contains" : [{
-          "system" : "http://loinc.org",
-          "code" : "LA9633-4",
-          "display" : "Present"
-        },
-        {
-          "system" : "http://loinc.org",
-          "code" : "LA9634-2",
-          "display" : "Absent"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "https://github.com/phenopackets/core-ig/ValueSet/observation-categories",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "observation-categories",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 10 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-categories.html\">Categories v0.1.0 (CodeSystem)</a></li><li><a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html\">Observation Category Codes v0.1.0 (CodeSystem)</a></li><li><a href=\"http://hl7.org/fhir/R4/valueset-observation-category.html\">Observation Category Codes v4.0.1 (ValueSet)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-social-history\"> </a>  <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html#observation-category-social-history\">social-history</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Social History</td><td><div><p>Social History Observations define the patient's occupational, personal (e.g., lifestyle), social, familial, and environmental history and health risk factors that may impact the patient's health.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-vital-signs\"> </a>  <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html#observation-category-vital-signs\">vital-signs</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Vital Signs</td><td><div><p>Clinical observations measure the body's basic functions such as blood pressure, heart rate, respiratory rate, height, weight, body mass index, head circumference, pulse oximetry, temperature, and body surface area.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-imaging\"> </a>  <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html#observation-category-imaging\">imaging</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Imaging</td><td><div><p>Observations generated by imaging. The scope includes observations regarding plain x-ray, ultrasound, CT, MRI, angiography, echocardiography, and nuclear medicine.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-laboratory\"> </a>  <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html#observation-category-laboratory\">laboratory</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Laboratory</td><td><div><p>The results of observations generated by laboratories.  Laboratory results are typically generated by laboratories providing analytic services in areas such as chemistry, hematology, serology, histology, cytology, anatomic pathology (including digital pathology), microbiology, and/or virology. These observations are based on analysis of specimens obtained from the patient and submitted to the laboratory.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-procedure\"> </a>  <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html#observation-category-procedure\">procedure</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Procedure</td><td><div><p>Observations generated by other procedures.  This category includes observations resulting from interventional and non-interventional procedures excluding laboratory and imaging (e.g., cardiology catheterization, endoscopy, electrodiagnostics, etc.).  Procedure results are typically generated by a clinician to provide more granular information about component observations made during a procedure.  An example would be when a gastroenterologist reports the size of a polyp observed during a colonoscopy.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-survey\"> </a>  <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html#observation-category-survey\">survey</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Survey</td><td><div><p>Assessment tool/survey instrument observations (e.g., Apgar Scores, Montreal Cognitive Assessment (MoCA)).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-exam\"> </a>  <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html#observation-category-exam\">exam</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Exam</td><td><div><p>Observations generated by physical exam findings including direct observations made by a clinician and use of simple instruments and the result of simple maneuvers performed directly on the patient's body.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-therapy\"> </a>  <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html#observation-category-therapy\">therapy</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Therapy</td><td><div><p>Observations generated by non-interventional treatment protocols (e.g. occupational, physical, radiation, nutritional and medication therapy)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-activity\"> </a>  <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-observation-category.html#observation-category-activity\">activity</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Activity</td><td><div><p>Observations that measure or record any bodily activity that enhances or maintains physical fitness and overall health and wellness.  Not under direct supervision of practitioner such as a physical therapist. (e.g., laps swum, steps, sleep data)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---github.com-phenopackets-core-ig-CodeSystem-categories-phenotype\"> </a>  <a href=\"CodeSystem-categories.html#categories-phenotype\">phenotype</a></td><td>https://github.com/phenopackets/core-ig/CodeSystem/categories</td><td>Phenotype</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 10 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-categories.html\">Categories v0.1.0 (CodeSystem)</a></li><li><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes v0.1.0 (CodeSystem)</a></li><li><a href=\"http://hl7.org/fhir/R4/valueset-observation-category.html\">Observation Category Codes v4.0.1 (ValueSet)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-social-history\"> </a>  <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html#observation-category-social-history\">social-history</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Social History</td><td><div><p>Social History Observations define the patient's occupational, personal (e.g., lifestyle), social, familial, and environmental history and health risk factors that may impact the patient's health.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-vital-signs\"> </a>  <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html#observation-category-vital-signs\">vital-signs</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Vital Signs</td><td><div><p>Clinical observations measure the body's basic functions such as blood pressure, heart rate, respiratory rate, height, weight, body mass index, head circumference, pulse oximetry, temperature, and body surface area.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-imaging\"> </a>  <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html#observation-category-imaging\">imaging</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Imaging</td><td><div><p>Observations generated by imaging. The scope includes observations regarding plain x-ray, ultrasound, CT, MRI, angiography, echocardiography, and nuclear medicine.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-laboratory\"> </a>  <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html#observation-category-laboratory\">laboratory</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Laboratory</td><td><div><p>The results of observations generated by laboratories.  Laboratory results are typically generated by laboratories providing analytic services in areas such as chemistry, hematology, serology, histology, cytology, anatomic pathology (including digital pathology), microbiology, and/or virology. These observations are based on analysis of specimens obtained from the patient and submitted to the laboratory.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-procedure\"> </a>  <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html#observation-category-procedure\">procedure</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Procedure</td><td><div><p>Observations generated by other procedures.  This category includes observations resulting from interventional and non-interventional procedures excluding laboratory and imaging (e.g., cardiology catheterization, endoscopy, electrodiagnostics, etc.).  Procedure results are typically generated by a clinician to provide more granular information about component observations made during a procedure.  An example would be when a gastroenterologist reports the size of a polyp observed during a colonoscopy.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-survey\"> </a>  <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html#observation-category-survey\">survey</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Survey</td><td><div><p>Assessment tool/survey instrument observations (e.g., Apgar Scores, Montreal Cognitive Assessment (MoCA)).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-exam\"> </a>  <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html#observation-category-exam\">exam</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Exam</td><td><div><p>Observations generated by physical exam findings including direct observations made by a clinician and use of simple instruments and the result of simple maneuvers performed directly on the patient's body.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-therapy\"> </a>  <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html#observation-category-therapy\">therapy</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Therapy</td><td><div><p>Observations generated by non-interventional treatment protocols (e.g. occupational, physical, radiation, nutritional and medication therapy)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-activity\"> </a>  <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html#observation-category-activity\">activity</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Activity</td><td><div><p>Observations that measure or record any bodily activity that enhances or maintains physical fitness and overall health and wellness.  Not under direct supervision of practitioner such as a physical therapist. (e.g., laps swum, steps, sleep data)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---github.com-phenopackets-core-ig-CodeSystem-categories-phenotype\"> </a>  <a href=\"CodeSystem-categories.html#categories-phenotype\">phenotype</a></td><td>https://github.com/phenopackets/core-ig/CodeSystem/categories</td><td>Phenotype</td><td><div></div></td></tr></table></div>"
       },
       "url" : "https://github.com/phenopackets/core-ig/ValueSet/observation-categories",
       "version" : "0.1.0",
       "name" : "ObservationCategories",
       "title" : "Observation categories",
       "status" : "draft",
-      "date" : "2022-09-17T20:56:08+00:00",
+      "date" : "2023-01-26T17:47:50+00:00",
       "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
       "contact" : [{
         "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
@@ -198,8 +138,8 @@
       }],
       "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
       "expansion" : {
-        "identifier" : "urn:uuid:5b4079b7-897c-4d20-acf2-0ef0d8437e85",
-        "timestamp" : "2022-09-17T20:57:15+00:00",
+        "identifier" : "urn:uuid:b1b85177-7b1d-4661-a1bd-da961758dcbf",
+        "timestamp" : "2023-01-26T17:49:03+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -266,6 +206,66 @@
           "system" : "https://github.com/phenopackets/core-ig/CodeSystem/categories",
           "code" : "phenotype",
           "display" : "Phenotype"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://github.com/phenopackets/core-ig/ValueSet/phenotypicFeatureVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "phenotypicFeatureVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.73</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA9633-4\"> </a>  <a href=\"https://loinc.org/LA9633-4/\">LA9633-4</a></td><td>http://loinc.org</td><td>Present</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA9634-2\"> </a>  <a href=\"https://loinc.org/LA9634-2/\">LA9634-2</a></td><td>http://loinc.org</td><td>Absent</td></tr></table></div>"
+      },
+      "url" : "https://github.com/phenopackets/core-ig/ValueSet/phenotypicFeatureVS",
+      "version" : "0.1.0",
+      "name" : "PhenotypicFeatureStatusValueSet",
+      "title" : "Observation Codes for status of a PhenotypicFeature",
+      "status" : "active",
+      "date" : "2023-01-26T17:47:50+00:00",
+      "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
+      "contact" : [{
+        "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"
+        }]
+      }],
+      "description" : "The LOINC codes for present if a feature is observed and absent if a feature was excluded.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }]
+      }],
+      "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
+      "expansion" : {
+        "identifier" : "urn:uuid:fb8e39cb-e22d-42b3-87c3-dae859a87be4",
+        "timestamp" : "2023-01-26T17:49:05+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.73"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "LA9633-4",
+          "display" : "Present"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA9634-2",
+          "display" : "Absent"
         }]
       }
     }

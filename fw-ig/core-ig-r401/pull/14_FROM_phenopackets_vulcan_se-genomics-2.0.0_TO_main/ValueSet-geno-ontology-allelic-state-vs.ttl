@@ -7,18 +7,18 @@
 
 <https://github.com/phenopackets/core-ig/ValueSet/geno-ontology-allelic-state-vs> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "geno-ontology-allelic-state-vs"];
+  fhir:Resource.id [ fhir:value "geno-ontology-allelic-state-vs"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <code>http://www.ebi.ac.uk/ols/ontologies/geno</code> where concept  is-a  GENO_0000875</li></ul></div>"
-  ];
-  fhir:ValueSet.url [ fhir:value "https://github.com/phenopackets/core-ig/ValueSet/geno-ontology-allelic-state-vs"];
-  fhir:ValueSet.version [ fhir:value "0.1.0"];
-  fhir:ValueSet.name [ fhir:value "GenoOntologyAllelicStateVS"];
-  fhir:ValueSet.title [ fhir:value "GENO Ontology Allelic State Value Set "];
-  fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-09-17T20:56:08+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
+  ]; # 
+  fhir:ValueSet.url [ fhir:value "https://github.com/phenopackets/core-ig/ValueSet/geno-ontology-allelic-state-vs"]; # 
+  fhir:ValueSet.version [ fhir:value "0.1.0"]; # 
+  fhir:ValueSet.name [ fhir:value "GenoOntologyAllelicStateVS"]; # 
+  fhir:ValueSet.title [ fhir:value "GENO Ontology Allelic State Value Set "]; # 
+  fhir:ValueSet.status [ fhir:value "active"]; # 
+  fhir:ValueSet.date [ fhir:value "2023-01-26T17:47:50+00:00"^^xsd:dateTime]; # 
+  fhir:ValueSet.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"]; # 
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream" ];
@@ -27,8 +27,8 @@
        fhir:ContactPoint.system [ fhir:value "url" ];
        fhir:ContactPoint.value [ fhir:value "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/" ]
      ]
-  ];
-  fhir:ValueSet.description [ fhir:value "Descendent terms of GENO_0000875"];
+  ]; # 
+  fhir:ValueSet.description [ fhir:value "Descendent terms of GENO_0000875"]; # 
   fhir:ValueSet.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -36,8 +36,8 @@
        fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
        fhir:Coding.code [ fhir:value "US" ]
      ]
-  ];
-  fhir:ValueSet.copyright [ fhir:value "[Global Alliance for Genomics and Health](https://www.ga4gh.org)"];
+  ]; # 
+  fhir:ValueSet.copyright [ fhir:value "[Global Alliance for Genomics and Health](https://www.ga4gh.org)"]; # 
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
@@ -49,7 +49,7 @@
          fhir:ValueSet.compose.include.filter.value [ fhir:value "GENO_0000875" ]
        ]
      ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 
