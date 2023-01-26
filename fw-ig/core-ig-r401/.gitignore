@@ -8,3 +8,6 @@ output/
 temp/
 template/
 /.fhir/packages/hl7.fhir.us.ga4gh.phenopacket#dev/
+
+# Shahim: ignore this for now to avoid committing content from local builds
+.fhir/
